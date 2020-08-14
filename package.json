@@ -1,0 +1,30 @@
+{
+  "name": "shibin-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-you/shibin-pages.git"
+  },
+  "author": "shibin-you",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibin-you/shibin-pages/issues"
+  },
+  "homepage": "https://github.com/shibin-you/shibin-pages#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "git-cz": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-load-plugins": "^2.0.3"
+  }
+}
